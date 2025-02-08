@@ -105,5 +105,5 @@ tests/windows
 # Intermediate and binary folders
 Output/
 bin/
-bin-Int/
+bin-int/
 
