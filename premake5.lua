@@ -2,8 +2,8 @@ project "GLFW"
 	kind "StaticLib"
 	language "C"
 
-	targetdir ("%{wks.location}/Binaries/%{cfg.buildcfg}")
-	objdir ("%{wks.location}/Intermediate/%{cfg.buildcfg}")
+	targetdir "%{wks.location}/Binaries/%{cfg.buildcfg}"
+	objdir "%{wks.location}/Intermediate/%{cfg.buildcfg}"
 
 	files
 	{
